@@ -23,7 +23,7 @@ router.get('/', (req, res) => {
 
 // get one product
 router.get('/:id', (req, res) => {
-  Product.findOne({where: { id: req.body.id }},
+  Product.findOne({ where: { id: req.body.id } },
     { include: [
       Category,
       { model: Tag,
