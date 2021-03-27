@@ -9,13 +9,16 @@ router.get('/', (req, res) => {
     include: [
       Category,
       { model: Tag,
-        through: Vote,
-        as: 'voted_posts'
+        through: ProductTag,
+        as: 'product_tags'
       }
     ]
   })
-  // find all products
-  // be sure to include its associated Category and Tag data
+  .then((dbProductData) => res.json(dbProductData))
+  .catch((err) => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
 
 // get one product
