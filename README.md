@@ -25,7 +25,7 @@ In order to run the project locally, ensure that dependencies are installed by r
 
 ## Usage
 
-The project runs through the npm `start` script, that gives access to the api routes that were created for the models created for the project. The project works to allow for calling all, calling one, creating, updating and deleting all three models that have been created for the project. These routes can be tested within a second application, such as Postman or Insomnia.
+The project runs through the `npm start` script, that gives access to the api routes that were created for the models created for the project. The project works to allow for calling all, calling one, creating, updating and deleting all three models that have been created for the project. These routes can be tested within a second application, such as Postman or Insomnia.
 
 You can find the deployed link and the repository link below:
 
