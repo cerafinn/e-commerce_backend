@@ -35,9 +35,9 @@ Repo Link: [Repo Link](https://github.com/cerafinn/e-commerce_backend)
 
 Screenshots:
 
-![IMG](images\ecommerce.PNG)
+![IMG](./images/ecommerce.PNG)
 
-![Insomnia](images\ecomm-routes.png)
+![Insomnia](./images/ecomm-routes.png)
 
 <br />
 
